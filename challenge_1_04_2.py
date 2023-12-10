@@ -1,3 +1,4 @@
+#重拍
 from codrone_edu.drone import * #引入CoDrone EDU的函式庫
 drone = Drone() #建立名為drone的CoDrone EDU物件
 drone.pair() #把遙控器跟無人機配對
