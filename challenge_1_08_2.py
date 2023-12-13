@@ -8,7 +8,7 @@ yaw_array = [] #設定一個叫yaw_array的陣列紀錄旋轉的幅度
 pitch_array = [] #設定一個叫pitch_array的陣列紀錄向前移動的幅度
 
 for x in range(0, 3, 1): #在x等於0, 1, 2時分別跑一次裡面的程式
-    yawRand = randint(-50,50) #yawRand會是-50到50之間隨機的數字
+    yawRand = randint(-30,30) #yawRand會是-50到50之間隨機的數字
     pitchRand = randint(0,30) #pitchRand會是0到30之間隨機的數字
     yaw_array[x] = yawRand #把yawRand的值用陣列紀錄起來
     pitch_array[x] = pitchRand #把pitchRand的值用陣列紀錄起來
