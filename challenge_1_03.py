@@ -30,7 +30,7 @@ drone.set_roll(-40) #無人機向左方移動的功率設為40
 drone.move(2) #無人機移動2秒
 drone.set_roll(0) #無人機向左方移動的功率設為0
 drone.set_pitch(40) #無人機向前方移動的功率設為40
-drone.move(1) #無人機移動2秒
+drone.move(2) #無人機移動2秒
 drone.set_pitch(0) #無人機向前方移動的功率設為0
 drone.set_roll(40) #無人機向右方移動的功率設為40
 drone.move(2) #無人機移動2秒
